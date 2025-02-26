@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:gravity="center"
+    android:background="?android:attr/colorBackground">
+
+    <!-- Titre principal -->
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Gestion des Capteurs"
+        android:textSize="22sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_marginBottom="24dp"/>
+
+    <Button
+        android:id="@+id/btn_show_sensors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Liste des Capteurs"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginBottom="16dp"/>
+
+    <Button
+        android:id="@+id/btn_check_sensors"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Vérifier Disponibilité"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"/>
+
+    <Button
+        android:id="@+id/btn_accelerometer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Accéléromètre et Fond Animé"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_direction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Détection de direction"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/btn_flash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lampe Torche"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="16dp"/>
+
+
+</LinearLayout>
