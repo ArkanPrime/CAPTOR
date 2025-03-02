@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
         android:allowBackup="true"
@@ -44,7 +46,11 @@
             android:name="com.example.captor.direction.DirectionActivity"
             android:theme="@style/AppTheme">
         </activity>
-        <activity android:name="com.example.captor.flash.FlashActivity"/>
+        <activity android:name="com.example.captor.flash.FlashActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="com.example.captor.proximity.ProximityActivity"
+            android:theme="@style/AppTheme"/>
+        <activity android:name="com.example.captor.location.LocationActivity"/>
 
 
 

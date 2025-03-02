@@ -9,6 +9,9 @@ import com.example.captor.sensorCheck.SensorCheckActivity
 import com.example.captor.accelerometer.AccelerometerActivity
 import com.example.captor.direction.DirectionActivity
 import com.example.captor.flash.FlashActivity
+import com.example.captor.location.LocationActivity
+import com.example.captor.proximity.ProximityActivity
+
 
 
 class MainActivity : AppCompatActivity() {
@@ -21,6 +24,9 @@ class MainActivity : AppCompatActivity() {
         val btnAccelerometer = findViewById<Button>(R.id.btn_accelerometer)
         val btnDirection = findViewById<Button>(R.id.btn_direction)
         val btnFlash = findViewById<Button>(R.id.btn_flash)
+        val btnProximity = findViewById<Button>(R.id.btn_proximity)
+        val btnLocation = findViewById<Button>(R.id.btn_location)
+
 
         btnShowSensors.setOnClickListener {
             startActivity(Intent(this, SensorListActivity::class.java))
@@ -40,6 +46,12 @@ class MainActivity : AppCompatActivity() {
 
         btnFlash.setOnClickListener {
             startActivity(Intent(this, FlashActivity::class.java))
+        }
+        btnProximity.setOnClickListener {
+            startActivity(Intent(this, ProximityActivity::class.java))
+        }
+        btnLocation.setOnClickListener {
+            startActivity(Intent(this, LocationActivity::class.java))
         }
     }
 }

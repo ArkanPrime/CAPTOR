@@ -62,6 +62,21 @@
         android:textSize="16sp"
         android:paddingVertical="12dp"
         android:layout_marginTop="16dp"/>
+    <Button
+        android:id="@+id/btn_proximity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Détéction de proximité"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="16dp"/>
 
-
+    <Button
+        android:id="@+id/btn_location"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Géolocalisation"
+        android:textSize="16sp"
+        android:paddingVertical="12dp"
+        android:layout_marginTop="16dp"/>
 </LinearLayout>

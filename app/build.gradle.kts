@@ -60,6 +60,7 @@ android {
         implementation(libs.androidx.ui.tooling.preview)
         implementation(libs.androidx.material3)
         implementation(libs.androidx.appcompat)
+        implementation(libs.play.services.maps)
         testImplementation(libs.junit)
         androidTestImplementation(libs.androidx.junit)
         androidTestImplementation(libs.androidx.espresso.core)
@@ -67,4 +68,8 @@ android {
         androidTestImplementation(libs.androidx.ui.test.junit4)
         debugImplementation(libs.androidx.ui.tooling)
         debugImplementation(libs.androidx.ui.test.manifest)
+        implementation ("com.google.android.gms:play-services-location:21.0.1")
+        implementation ("org.osmdroid:osmdroid-android:6.1.16")
+
+
     }
